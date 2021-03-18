@@ -1,0 +1,94 @@
+/* Colors and fonts */
+
+body{
+	background-color: #ADCAD6;
+	color: rgb(20, 20, 20);
+}
+h1{
+	color:rgb(23,23,23);
+	font-family: Courrier;
+	font-weight:450;
+	letter-spacing: 2px;
+	font-size: 34px;
+}
+h2{
+	color: rgb(0, 0, 0);
+	font-size: 31px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: #006BA6;
+	font-weight: 630;
+}
+a:hover{
+	color: blue;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.shadowed{
+	box-shadow: 5px 5px 3px black;
+}
+#leader{
+	border: 3px solid white;
+	width: 200px;
+}
+/* Custom design with class (99% of your design) */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 500px){
+	.container{
+		background-color: rgb(30, 30, 30);
+		width: 400px;
+	}
+}
+@media(max-width: 760px){
+	.container{
+		background-color: rgb(30, 30, 30);
+		width: 600px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 11px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: orange;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i {
+	font-size: 45px;
+	color: rgb(220, 220, 220);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
